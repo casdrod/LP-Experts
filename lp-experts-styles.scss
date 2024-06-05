@@ -359,12 +359,13 @@ footer{overflow:hidden; padding:40px 0 0;background: url(assets/images/lp-expert
 }
 
 
-.copy {margin-top:20px;padding: 10px; background-color:#fff; margin:auto;font:400 18px/1.4 $font;letter-spacing: normal;
+.copy {display: flex;
+    justify-content: center;margin-top:20px;padding: 10px; background-color:#fff; margin:auto;font:400 18px/1.4 $font;letter-spacing: normal;
    a, p {font:400 18px/1.4 $font;letter-spacing: normal;color:#000; }
    a {color:$primary; }
     p {margin: 20px auto; max-width: 1090px; letter-spacing: normal;}
     a:hover{color:$primary;text-decoration:underline}
-    span:not(:first-of-type) {margin: 0 8px;}
+    span {margin: 0 8px;}
 
 }
 
